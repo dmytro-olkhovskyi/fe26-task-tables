@@ -1,0 +1,17 @@
+.table-demo {
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+
+.table-demo th, .table-demo td {
+    border: 1px solid gray;
+}
+
+.table-demo > tbody tr:nth-child(2n+1) {
+/* .table-demo > tbody tr:not(:first-child) { */
+    background-color: lightgray;
+}
+
+.table-demo > tbody tr:hover {
+    background-color: lightblue;
+}
